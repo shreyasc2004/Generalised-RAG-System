@@ -1,0 +1,14 @@
+.venv/
+.rag/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.vscode/
+.env
+.env.*
+!.env.example
+# Knowledge documents may contain private information.
+Knowledge base/kb/*
+!Knowledge base/kb/.gitkeep
+
